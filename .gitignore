@@ -1,0 +1,29 @@
+# Generated local experiment-tracking database and SQLite journal files.
+results/experiments.sqlite3
+results/experiments.sqlite3-wal
+results/experiments.sqlite3-shm
+
+# Python environments and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local market data and generated output
+/market-data/
+/eurusd_clean.csv
+/eurusd_1m.csv
+/reports/
+*.log
