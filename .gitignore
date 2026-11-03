@@ -2,6 +2,10 @@
 results/experiments.sqlite3
 results/experiments.sqlite3-wal
 results/experiments.sqlite3-shm
+results/trader_history.sqlite3
+results/trader_history.sqlite3-wal
+results/trader_history.sqlite3-shm
+/models/
 
 # Python environments and generated caches
 .venv/
